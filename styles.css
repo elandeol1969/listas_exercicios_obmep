@@ -56,8 +56,16 @@ main {
   padding: 10px 20px;
   border: none;
   background-color: #007bff;
-  color: white;
+  color: #ffffff;
   cursor: pointer;
+}
+
+#menu-inicial {
+  background-color: #afe8ed;
+  border-width: 5px;
+  border-style: double;
+  border-color: #ff0000;
+  border-radius: 20px
 }
 
 #score,
@@ -74,4 +82,30 @@ ol {
 
 ul {
   padding: 10px 20px;
+  margin: 20px;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+  font-variant: normal;
+  color:#fff
+	}
+
+.listaInicial{
+  color: #ff0000;
+  list-style-type: lower-roman;
+}
+
+.txtlst{
+  color: #ff0000;
+  margin: 0px;
+  font-size: 1.2em;
+}
+
+.txtlst:hover {
+  background-color: aqua;
+}
+
+.txtlst:active {
+  background-color: #8a2be2;
 }

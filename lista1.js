@@ -115,7 +115,7 @@ const questions = [
       loadQuestion();
     } else {
       alert(
-        "Fim do Quiz! Você acertou " +
+        "Fim da Lista 1! Você acertou " +
           score +
           " de " +
           questions.length +
